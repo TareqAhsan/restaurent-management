@@ -50,7 +50,7 @@ body , html{
 
 }
 .navbar-nav li a {
- color: black;
+ color:white;
  font-weight: bold;
 }
 .navbar-nav li a:hover{
@@ -147,5 +147,36 @@ footer h3{
     color:red;
     font-size: 2em;
 }
+
+.container-counter{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.container-counter{
+    padding-top: 20px;
+    color: darkmagenta;
+}
+.icon-box{
+    margin: 20px auto;
+    align-items: center;
+    border: 1px solid darkmagenta;
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    transform: rotate(45deg);
+}
+.icon-box .fa{
+    margin:25px auto;
+    font-size:40px ;
+    transform: rotate(-45deg);
+}
+.container-counter p{
+    font-size: 1.5em;
+}
+.container-counter .counter{
+    font-size:5em ;
+}
+
 
 
